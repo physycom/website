@@ -1,44 +1,26 @@
 ---
 title: Research
 nav:
-  order: 1
-  tooltip: Published works
+  order: 2
+  tooltip: research topics
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# Research Activities at the City Science Lab
 
+- Network theory and random walks<br>
+We study the dynamics of complex networks using random walk models to explore node connectivity, community structure, and diffusion processes. Applications include urban infrastructure, mobility systems, and energy distribution.
 
-{% include section.html %}
+- Urban vehicular mobility modeling for Bologna<br>
+We develop large-scale simulations of traffic flow across Bologna’s street network to forecast congestion patterns and optimize traffic lights and routing strategies. The model integrates real traffic data and adaptive control mechanisms to improve urban mobility efficiency.
 
-## Highlighted
-{% include citation.html lookup="A survival model to explain the statistical properties of multimodal mobility" style="rich" %}
+- Railway delay prediction using Italian train data<br>
+We analyze national train schedules and historical delay records to build predictive models of late arrivals. Machine learning techniques and network-based metrics are used to identify systemic issues and improve schedule reliability.
 
-{% include citation.html lookup="Modellizzazione della mobilità urbana. Una nuova sfida per la teoria dei sistemi dinamici" style="rich" %}
+- Building energy simulation<br>
+We simulate energy consumption for the buildings in Bologna based on their geometry and age. The output is used to map the city’s most energy-demanding and polluting zones, supporting decarbonization strategies and policy-making.
 
-{% include citation.html lookup="A stochastic compartmental model to simulate the Covid-19 epidemic spread on a simple network" style="rich" %}
+- Urban vegetation analysis<br>
+We extract information on urban trees using airborne LiDAR, including segmentation of individual trees and updates of tree features such as height and crown radius. This helps maintain accurate vegetation inventories and assess urban green coverage.
 
-{% include citation.html lookup="Unraveling pedestrian mobility on a road network using ICTs data during great tourist events" style="rich" %}
-
-{% include citation.html lookup="A stochastic model of randomly accelerated walkers for human mobility" style="rich" %}
-
-{% include citation.html lookup="Understanding the variability of daily travel-time expenditures using GPS trajectory data" style="rich" %}
-
-
-{% include citation.html lookup="MODELING TRAFFIC FLUCTUATIONS AND CONGESTION ON A ROAD NETWORK" style="rich" %}
-
-
-{% include citation.html lookup="Dynamical Systems on Graphs : from Random Walks to Transportation Networks" style="rich" %}
-
-
-{% include citation.html lookup="A stochastic model of randomly accelerated walkers for human mobility" style="rich" %}
-
-
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+- Urban Heat Island (UHI) analysis<br>
+We study the urban heat island effect using spatial variables like Sky View Factor (SVF). The aim is to understand microclimate variation across urban zones and identify heat-vulnerable areas for climate adaptation planning.
